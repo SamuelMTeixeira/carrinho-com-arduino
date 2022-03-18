@@ -10,7 +10,6 @@ SoftwareSerial hc(RX_in, TX_in);
 // ====================================================================
 // BUZZER PASSIVO
 const int buzzer = 3;
-unsigned long timer = 0;
 
 // REALIZA A SEQUENCIA DA BUZINA
 void buzinar() {
