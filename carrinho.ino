@@ -172,7 +172,7 @@ void loop() {
     else if (dadoEntrada == 'v' ) {
       buzinar();
     }
-    
+
     // PARA O CARRO
     else {
       MotorEsquerdo.Freio();
