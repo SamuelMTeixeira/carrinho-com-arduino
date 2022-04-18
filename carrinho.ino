@@ -66,6 +66,9 @@ void setup() {
   MotorEsquerdo.Pinout(5, 6);
   MotorDireito.Pinout(9, 10);
 
+  MotorEsquerdo.Velocidade(255);
+  MotorDireito.Velocidade(255);
+
   // CONFIGURAÇÕES DO BUZZER
   pinMode(buzzer, OUTPUT);
 
